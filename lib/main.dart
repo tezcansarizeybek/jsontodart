@@ -3,7 +3,8 @@ import 'package:get/get.dart';
 import 'package:jsontodartconverter/view/pages/mainPage.dart';
 import 'package:responsive_framework/responsive_framework.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
   runApp(MyApp());
 }
 
